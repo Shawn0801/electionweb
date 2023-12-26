@@ -1,0 +1,80 @@
+.desc {
+  text-align: center;
+}
+
+.manContainer {
+  position: relative;
+}
+
+.man-bg {
+  z-index: 1;
+}
+
+.man {
+  position: absolute;
+  width: 320px;
+  right: 30%;
+  z-index: 2;
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 16px;
+  background-color: #DA7D4A;
+  color: whitesmoke;
+}
+
+.marquee span {
+  font-size: 40px;
+  display: inline-block;
+  padding-left: 100%;
+  /* Set to a large value to ensure continuous scrolling */
+  animation: marquee-animation 20s linear infinite;
+}
+
+@keyframes marquee-animation {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.advocate {
+  background-color: #F7ECE1;
+}
+
+.advocate-desc {
+  background-color: white;
+}
+
+.description {
+  font-size: larger;
+  line-height: 150%;
+}
+
+h2 {
+  font-size: x-large;
+}
+
+button {
+  width: 120px;
+}
+
+.donate-left {
+  background-color: #DA7D4A;
+  max-width: 600px;
+  max-height: 600px;
+  border-radius: 8px;
+}
+
+.donate-right {
+  background-color: #334155;
+  max-width: 600px;
+  max-height: 600px;
+  border-radius: 8px;
+}
+
+
+.donate-desc {
+  color: whitesmoke;
+}
